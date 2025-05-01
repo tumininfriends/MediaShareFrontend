@@ -1,0 +1,166 @@
+/* General Styles */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+header {
+  background-color: #0077b6;
+  color: #fff;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 1.5rem;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+nav a:hover {
+  color: #ff7b00;
+}
+
+.main-menu {
+  margin: 0 auto;
+}
+
+.auth-menu {
+  margin-left: auto;
+}
+
+.hidden {
+  display: none;
+}
+
+.hero {
+  background-color: #00b4d8;
+  color: #fff;
+  padding: 4rem 0;
+  text-align: center;
+}
+
+.hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  background-color: #ff7b00;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.btn:hover {
+  background-color: #e56b00;
+}
+
+.featured-media, #media {
+  padding: 2rem 0;
+}
+
+.featured-media h2, #media h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #0077b6;
+}
+
+.media-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.media-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.media-item img, .media-item video {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+}
+
+.media-item h3 {
+  margin: 1rem 0;
+  font-size: 1.2rem;
+  color: #0077b6;
+}
+
+.media-item p {
+  padding: 0 1rem;
+  color: #555;
+}
+
+.comment-section, .rating-section {
+  padding: 1rem;
+  border-top: 1px solid #ddd;
+}
+
+.comment-section textarea {
+  width: 100%;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.rating-section {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.rating-section span {
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: #ff7b00;
+}
+
+footer {
+  background-color: #0077b6;
+  color: #fff;
+  text-align: center;
+  padding: 1rem 0;
+  margin-top: 2rem;
+}
+
+.hidden {
+  display: none;
+}

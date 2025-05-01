@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Media Sharing App</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Media Sharing App</h1>
+      <nav>
+        <ul class="main-menu">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#media">Explore</a></li>
+        </ul>
+        <ul class="auth-menu">
+          <li><a href="login.html">Login</a></li>
+          <li><a href="register.html">Register</a></li>
+          <li id="uploadLink" class="hidden"><a href="upload.html">Upload</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <div class="container">
+    <h2>Upload Media</h2>
+    <form id="uploadForm">
+      <input type="file" id="mediaFile" accept="image/*, video/*" required>
+      <input type="text" id="mediaTitle" placeholder="Title" required>
+      <input type="text" id="mediaCaption" placeholder="Caption">
+      <input type="text" id="mediaLocation" placeholder="Location">
+      <select id="mediaType" required>
+        <option value="photo">Photo</option>
+        <option value="video">Video</option>
+      </select>
+      <button type="submit" class="btn">Upload</button>
+    </form>
+  </div>
+  <script src="upload.js"></script>
+</body>
+</html>
